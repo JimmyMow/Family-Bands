@@ -1,4 +1,8 @@
 $(function () {
+    var log = function(x) {
+        console.log(x);
+    };
+
     // HACK to quickly fill in Liesl images
     // --------
     $('section .item').each(function(index, item) {
@@ -10,8 +14,8 @@ $(function () {
 
     // -- How to get the position of an object
     // -- relative to top-left corner of window
-    nav.offset().top
-    nav.offset().left
+    nav.offset().top;
+    nav.offset().left;
 
     // -- How to find how many pixels beyond the top
     // -- of the viewport the window has been scrolled
@@ -19,5 +23,6 @@ $(function () {
 
     // -- How to handle the scroll event
     $(window).scroll(function() {
+        log('scrolling!');
     });
 });
