@@ -60,7 +60,7 @@ table {
   width: 960px;
 }
 
-.topnav, .wrapwrap {
+.wrapwrap {
   margin: 0 auto;
   width: 1000px;
 }
@@ -87,91 +87,6 @@ a {
 }
 .alerts .alert i {
   margin-right: 10px;
-}
-
-.navwrap {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 2em;
-}
-
-.topnav {
-  font-size: 0;
-  border-right: rgba(0, 0, 0, 0.1);
-}
-.topnav > ul > li {
-  font-size: 16px;
-  display: inline-block;
-  position: relative;
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-.topnav > ul > li:first-child {
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
-}
-.topnav > ul > li > a {
-  width: 165px;
-  margin-right: 0;
-  display: block;
-  padding: .8em 1em;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-  color: rgba(0, 0, 0, 0.5);
-}
-.topnav > ul > li > a span {
-  position: relative;
-  padding-right: 16px;
-}
-.topnav > ul > li > a span:after {
-  content: "";
-  position: absolute;
-  height: 0;
-  width: 0;
-  border-color: rgba(0, 0, 0, 0.5) transparent transparent transparent;
-  border-style: solid;
-  border-width: 5px;
-  right: 0;
-  top: 6px;
-}
-.topnav > ul > li:hover > a {
-  color: rgba(0, 0, 0, 0.8);
-  background: rgba(255, 255, 255, 0.3);
-}
-.topnav > ul > li:hover .subnav {
-  display: block;
-}
-.topnav .subnav {
-  width: 100%;
-  display: none;
-  position: absolute;
-  z-index: 100;
-  background: white;
-  top: 100%;
-  left: 0;
-  margin-top: 1px;
-  border-radius: 1px solid black;
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
-}
-.topnav .subnav a {
-  display: block;
-  text-align: left;
-  text-decoration: none;
-  padding: .5em .8em;
-  border-bottom: 1px solid #f0f0f0;
-}
-.topnav .subnav a:hover {
-  background: #f7f7f7;
-}
-
-.vontrapps .vontrapps a,
-.osmonds .osmonds a,
-.jacksons .jacksons a,
-.hansons .hansons a,
-.ronettes .ronettes a,
-.staples .staples a {
-  background: rgba(255, 255, 255, 0.5);
-  color: #333;
 }
 
 .wrapwrap {
