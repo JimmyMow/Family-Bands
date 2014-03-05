@@ -109,9 +109,6 @@ a {
   margin-right: 20px;
   display: inline-block;
   vertical-align: top;
-  position: absolute;
-  top: 0;
-  left: 0;
 }
 .sidenav.stuck {
   position: fixed;
@@ -164,8 +161,7 @@ a {
   margin-top: -12px;
 }
 
-.store {
-  margin-left: 245.0px;
+.content {
   width: 715px;
   margin-right: 20px;
   margin-right: 0;

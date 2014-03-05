@@ -75,9 +75,6 @@ a {
     @include columnify(3);
     display: inline-block;
     vertical-align: top;
-    position: absolute;
-    top: 0;
-    left: 0;
 
     &.stuck {
         position: fixed;
@@ -131,8 +128,7 @@ a {
     }
 }
 
-.store {
-    @include offset(3);
+.content {
     @include columnify(9);
     margin-right: 0;
     padding-top: 20px;
