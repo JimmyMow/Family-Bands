@@ -34,6 +34,16 @@ a {
 
 // Everything else
 
+// Topnav
+
+.navwrap {
+    margin-bottom: 40px;
+}
+
+.topnav {
+    display: none;
+}
+
 .alerts {
     @extend %container;
     margin-bottom: 2em;
@@ -211,3 +221,4 @@ section {
         margin-right: 0;
     }
 }
+

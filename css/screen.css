@@ -74,6 +74,14 @@ a {
   color: #693416;
 }
 
+.navwrap {
+  margin-bottom: 40px;
+}
+
+.topnav {
+  display: none;
+}
+
 .alerts {
   margin-bottom: 2em;
 }
