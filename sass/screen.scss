@@ -309,6 +309,20 @@ h2 {
     line-height: 1.4;
     margin-bottom: 1.5em;
 
+    .fa-star {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        font-size: 25px;
+        color: orange;
+        text-decoration: none;
+        text-shadow: 0 0 3px fade-out(black,.8);
+
+        &:hover {
+            color: white;
+        }
+    }
+
     .photo {
         height: 200px;
         background-color: #eee;
