@@ -175,7 +175,7 @@ body.staples li.staples,
     font-size: 0;
     margin-bottom: 20px;
     @include columnify(3);
-    display: inline-block;
+    float: left;
     vertical-align: top;
     position: absolute;
     top: 0;
@@ -266,7 +266,7 @@ body.staples li.staples,
     @include columnify(9);
     margin-right: 0;
     padding-top: 20px;
-    display: inline-block;
+    float: left;
     font-size: 0;
     position: relative;
 }
