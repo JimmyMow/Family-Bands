@@ -164,12 +164,12 @@ a {
   background: #f7f7f7;
 }
 
-.vontrapps .vontrapps a,
-.osmonds .osmonds a,
-.jacksons .jacksons a,
-.hansons .hansons a,
-.ronettes .ronettes a,
-.staples .staples a {
+body.vontrapps li.vontrapps a,
+body.osmonds li.osmonds a,
+body.jacksons li.jacksons a,
+body.hansons li.hansons a,
+body.ronettes li.ronettes a,
+body.staples li.staples a {
   background: rgba(255, 255, 255, 0.5);
   color: #333;
 }

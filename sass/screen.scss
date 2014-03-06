@@ -139,12 +139,12 @@ $nav_border: fade-out(black,.9);
     }
 }
 
-.vontrapps .vontrapps,
-.osmonds .osmonds,
-.jacksons .jacksons,
-.hansons .hansons,
-.ronettes .ronettes,
-.staples .staples,
+body.vontrapps li.vontrapps,
+body.osmonds li.osmonds,
+body.jacksons li.jacksons,
+body.hansons li.hansons,
+body.ronettes li.ronettes,
+body.staples li.staples,
 {
     a {
         background:fade-out(white,.5);
