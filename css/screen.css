@@ -97,6 +97,8 @@ a {
 .topnav {
   font-size: 0;
   border-right: rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 100;
 }
 .topnav > ul > li {
   font-size: 16px;
@@ -185,6 +187,7 @@ body.staples li.staples a {
   margin: 0 20px;
   font-size: 0;
   position: relative;
+  z-index: 200;
 }
 
 .sidenav {

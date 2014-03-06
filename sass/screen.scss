@@ -65,6 +65,8 @@ $nav_border: fade-out(black,.9);
     @extend %container-wrap;
     font-size: 0;
     border-right: $nav_border;
+    position: relative;
+    z-index: 100;
 
     > ul {
         > li {
@@ -167,6 +169,7 @@ body.staples li.staples,
     margin: 0 20px;
     font-size: 0;
     position: relative;
+    z-index: 200;
 }
 
 .sidenav {
