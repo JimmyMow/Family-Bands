@@ -66,49 +66,51 @@ $nav_border: fade-out(black,.9);
     font-size: 0;
     border-right: $nav_border;
 
-    > ul > li {
-        font-size: 16px;
-        display: inline-block;
-        position: relative;
-        border-right: 1px solid $nav_border;
+    > ul {
+        > li {
+            font-size: 16px;
+            display: inline-block;
+            position: relative;
+            border-right: 1px solid $nav_border;
 
-        &:first-child {
-            border-left: 1px solid $nav_border;
-        }
-
-        > a {
-            width: floor(($wrap_width - 7) / 6);
-            margin-right: 0;
-            display: block;
-            padding: .8em 1em;
-            text-align: center;
-            font-weight: bold;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 14px;
-            color: fade-out(black, .5);
-
-            span {
-                position: relative;
-                padding-right: 16px;
-
-                &:after {
-                    @include arrow-down(fade-out(black, .5), 5px);
-                    right: 0;
-                    top: 6px;
-                }
+            &:first-child {
+                border-left: 1px solid $nav_border;
             }
 
-        }
-
-        &:hover {
             > a {
-                color: fade-out(black,.2);
-                background:fade-out(white,.7);
+                width: floor(($wrap_width - 7) / 6);
+                margin-right: 0;
+                display: block;
+                padding: .8em 1em;
+                text-align: center;
+                font-weight: bold;
+                text-decoration: none;
+                text-transform: uppercase;
+                font-size: 14px;
+                color: fade-out(black, .5);
+
+                span {
+                    position: relative;
+                    padding-right: 16px;
+
+                    &:after {
+                        @include arrow-down(fade-out(black, .5), 5px);
+                        right: 0;
+                        top: 6px;
+                    }
+                }
+
             }
 
-            .subnav {
-                display: block;
+            &:hover {
+                > a {
+                    color: fade-out(black,.2);
+                    background:fade-out(white,.7);
+                }
+
+                .subnav {
+                    display: block;
+                }
             }
         }
     }
