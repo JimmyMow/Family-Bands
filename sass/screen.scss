@@ -169,6 +169,8 @@ body.staples li.staples,
     position: relative;
 }
 
+@import "faces/*.png";
+
 .sidenav {
     font-size: 0;
     margin-bottom: 20px;
@@ -207,8 +209,6 @@ body.staples li.staples,
             background-color: #ddd;
             border: 1px solid #999;
         }
-
-        @import "faces/*.png";
 
         &.liesl:before {
             @include faces-sprite(liesl);
