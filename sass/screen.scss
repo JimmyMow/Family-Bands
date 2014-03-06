@@ -272,14 +272,14 @@ h2 {
     }
 }
 
-section {
+.item {
     @include columnify(3);
     display: inline-block;
     font-size: 15px;
     line-height: 1.4;
     margin-bottom: 1.5em;
 
-    .item {
+    .photo {
         height: 200px;
         background-color: #eee;
         background-size: cover;

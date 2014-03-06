@@ -289,7 +289,7 @@ h2 {
   margin-left: 10px;
 }
 
-section {
+.item {
   width: 225px;
   margin-right: 20px;
   display: inline-block;
@@ -297,23 +297,23 @@ section {
   line-height: 1.4;
   margin-bottom: 1.5em;
 }
-section .item {
+.item .photo {
   height: 200px;
   background-color: #eee;
   background-size: cover;
   background-position: 50% 50%;
   margin-bottom: 1em;
 }
-section .caption h3 {
+.item .caption h3 {
   font-weight: bold;
   font-size: 18px;
 }
-section .caption h3 a {
+.item .caption h3 a {
   text-decoration: none;
 }
-section .caption p {
+.item .caption p {
   color: #888;
 }
-section:nth-of-type(3n) {
+.item:nth-of-type(3n) {
   margin-right: 0;
 }
