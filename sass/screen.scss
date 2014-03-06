@@ -231,7 +231,7 @@ body.staples li.staples,
     }
 }
 
-.store {
+.content {
     @include offset(3);
     @include columnify(9);
     margin-right: 0;
