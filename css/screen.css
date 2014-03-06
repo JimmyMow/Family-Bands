@@ -225,7 +225,7 @@ body.staples li.staples a {
   background-color: #ddd;
   border: 1px solid #999;
 }
-.sidenav a .faces-sprite, .sidenav a a.liesl:before, .sidenav a a.friedrich:before, .sidenav a a.louisa:before, .sidenav a a.kurt:before, .sidenav a a.brigitta:before, .sidenav a a.marta:before, .sidenav a a.gretl:before {
+.sidenav a .faces-sprite, .sidenav a a.liesl:before, .sidenav a a.friedrich:before, .sidenav a a.louisa:before, .sidenav a a.kurt:before, .sidenav a a.marta:before, .sidenav a a.gretl:before {
   background: url('../img/faces-s3b8c91fef2.png') no-repeat;
 }
 .sidenav a.liesl:before {
@@ -239,9 +239,6 @@ body.staples li.staples a {
 }
 .sidenav a.kurt:before {
   background-position: 0 -120px;
-}
-.sidenav a.brigitta:before {
-  background-position: 0 -90px;
 }
 .sidenav a.marta:before {
   background-position: 0 -30px;

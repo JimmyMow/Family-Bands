@@ -226,10 +226,6 @@ body.staples li.staples,
             @include faces-sprite(kurt);
         }
 
-        &.brigitta:before {
-            @include faces-sprite(brigitta);
-        }
-
         &.marta:before {
             @include faces-sprite(marta);
         }
