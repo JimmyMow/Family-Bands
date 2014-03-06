@@ -231,7 +231,7 @@ body.staples li.staples,
     }
 }
 
-.content {
+#content {
     @include offset(3);
     @include columnify(9);
     margin-right: 0;
@@ -239,6 +239,45 @@ body.staples li.staples,
     display: inline-block;
     font-size: 0;
     position: relative;
+
+    .item {
+        @include columnify(3);
+        display: inline-block;
+        font-size: 15px;
+        line-height: 1.4;
+        margin-bottom: 1.5em;
+
+        .photo {
+            height: 200px;
+            background-color: #eee;
+            background-size: cover;
+            background-position: 50% 50%;
+            margin-bottom: 1em;
+        }
+
+        .caption {
+            h3 {
+                font-weight: bold;
+                font-size: 18px;
+
+                a {
+                    text-decoration: none;
+                }
+            }
+
+            p {
+                color: #888;
+            }
+        }
+    }
+}
+
+.wrap {
+    .item {
+        &:nth-of-type(3n) {
+            margin-right: 0;
+        }
+    }
 }
 
 h2 {
@@ -269,40 +308,5 @@ h2 {
         height: 40px;
         position: relative;
         margin-left: 10px;
-    }
-}
-
-section {
-    @include columnify(3);
-    display: inline-block;
-    font-size: 15px;
-    line-height: 1.4;
-    margin-bottom: 1.5em;
-
-    .item {
-        height: 200px;
-        background-color: #eee;
-        background-size: cover;
-        background-position: 50% 50%;
-        margin-bottom: 1em;
-    }
-
-    .caption {
-        h3 {
-            font-weight: bold;
-            font-size: 18px;
-
-            a {
-                text-decoration: none;
-            }
-        }
-
-        p {
-            color: #888;
-        }
-    }
-
-    &:nth-of-type(3n) {
-        margin-right: 0;
     }
 }
