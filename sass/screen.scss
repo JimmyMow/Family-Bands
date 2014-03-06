@@ -288,17 +288,21 @@ h2 {
         display: inline-block;
     }
 
-    i {
-        font-size: 20px;
+    a {
+        font-size: 18px;
         color: #693416;
         border: 1px solid #ddd;
-        border-radius: 50%;
+        border-radius: 24px;
         display: inline-block;
-        padding: 10px;
-        width: 40px;
-        height: 40px;
+        padding: 10px 20px;
         position: relative;
         margin-left: 10px;
+        text-decoration: none;
+
+        &.active, &:hover {
+            background:#693416;
+            color: white;
+        }
     }
 }
 
@@ -308,18 +312,25 @@ h2 {
     font-size: 15px;
     line-height: 1.4;
     margin-bottom: 1.5em;
+    position: relative;
 
     .fa-star {
         position: absolute;
         top: 5px;
         right: 5px;
         font-size: 25px;
-        color: orange;
+        color: white;
         text-decoration: none;
         text-shadow: 0 0 3px fade-out(black,.8);
 
         &:hover {
-            color: white;
+            color: orange;
+        }
+    }
+
+    &.starred {
+        .fa-star {
+            color: orange;
         }
     }
 

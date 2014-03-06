@@ -19,4 +19,16 @@ $(function () {
         nav.toggleClass('stuck', makeItStick);
         nav.css('left', makeItStick ? navLeft : 0);
     });
+
+    // STARS
+    // -----
+
+    $('.item .fa-star').on('click', function() {
+        this.closest('div').add('starred');
+    });
+
+    $('.showonly').click({
+        $(this).toggleClass('active');
+        $('.item').exclude('.starred').hide();
+    });
 });
