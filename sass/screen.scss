@@ -193,7 +193,7 @@ body.staples li.staples,
         border-top: 1px solid fade-out(white,.7);
         position: relative;
         padding-left: 44px;
-        opacity: .7;
+        opacity: .8;
 
         &:before {
             content: "";
@@ -204,8 +204,38 @@ body.staples li.staples,
             top: 50%;
             left: 0;
             margin-top: -16px;
-            background: #ddd url(http://www.fillmurray.com/31/31);
-            border: 1px solid #444;
+            background-color: #ddd;
+            border: 1px solid #999;
+        }
+
+        @import "faces/*.png";
+
+        &.liesl:before {
+            @include faces-sprite(liesl);
+        }
+
+        &.friedrich:before {
+            @include faces-sprite(friedrich);
+        }
+
+        &.louisa:before {
+            @include faces-sprite(louisa);
+        }
+
+        &.kurt:before {
+            @include faces-sprite(kurt);
+        }
+
+        &.brigitta:before {
+            @include faces-sprite(brigitta);
+        }
+
+        &.marta:before {
+            @include faces-sprite(marta);
+        }
+
+        &.gretl:before {
+            @include faces-sprite(gretl);
         }
 
         &.active {
@@ -218,7 +248,7 @@ body.staples li.staples,
             }
 
             &:before {
-                border-color: #aaa;
+                border-color: #ccc;
             }
 
             &:after {
