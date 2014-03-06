@@ -269,20 +269,11 @@ h2 {
         height: 40px;
         position: relative;
         margin-left: 10px;
-
-        &:before {
-            // position: absolute;
-            // top: 50%;
-            // left: 50%;
-            // margin-left: -13px;
-            // margin-top: -13px;
-        }
     }
 }
 
 section {
     @include columnify(3);
-    // box-shadow: 0 0 4px black;
     display: inline-block;
     font-size: 15px;
     line-height: 1.4;
