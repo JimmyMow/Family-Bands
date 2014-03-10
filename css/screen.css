@@ -213,19 +213,16 @@ body.staples li.staples a {
   text-decoration: none;
   padding: 30px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
-  position: relative;
   padding-left: 44px;
   opacity: .8;
 }
 .sidenav a:before {
-  content: "";
   width: 30px;
   height: 30px;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -16px;
   background-color: #ddd;
   border: 1px solid #999;
 }
@@ -271,7 +268,6 @@ body.staples li.staples a {
   border-width: 12px;
   right: 0;
   top: 50%;
-  margin-top: -12px;
 }
 
 .content {
