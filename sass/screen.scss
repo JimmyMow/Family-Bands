@@ -66,8 +66,8 @@ $nav_border: fade-out(black,.9);
     font-size: 0;
     border-right: $nav_border;
 
-    > ul {
-        > li {
+    ul {
+        li {
             font-size: 16px;
             display: inline-block;
             position: relative;
@@ -77,7 +77,7 @@ $nav_border: fade-out(black,.9);
                 border-left: 1px solid $nav_border;
             }
 
-            > a {
+            a {
                 width: floor(($wrap_width - 7) / 6);
                 margin-right: 0;
                 display: block;
@@ -103,7 +103,7 @@ $nav_border: fade-out(black,.9);
             }
 
             &:hover {
-                > a {
+                a {
                     color: fade-out(black,.2);
                     background:fade-out(white,.7);
                 }

@@ -98,16 +98,16 @@ a {
   font-size: 0;
   border-right: rgba(0, 0, 0, 0.1);
 }
-.topnav > ul > li {
+.topnav ul li {
   font-size: 16px;
   display: inline-block;
   position: relative;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
-.topnav > ul > li:first-child {
+.topnav ul li:first-child {
   border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
-.topnav > ul > li > a {
+.topnav ul li a {
   width: 165px;
   margin-right: 0;
   display: block;
@@ -119,11 +119,11 @@ a {
   font-size: 14px;
   color: rgba(0, 0, 0, 0.5);
 }
-.topnav > ul > li > a span {
+.topnav ul li a span {
   position: relative;
   padding-right: 16px;
 }
-.topnav > ul > li > a span:after {
+.topnav ul li a span:after {
   content: "";
   position: absolute;
   height: 0;
@@ -134,11 +134,11 @@ a {
   right: 0;
   top: 6px;
 }
-.topnav > ul > li:hover > a {
+.topnav ul li:hover a {
   color: rgba(0, 0, 0, 0.8);
   background: rgba(255, 255, 255, 0.3);
 }
-.topnav > ul > li:hover .subnav {
+.topnav ul li:hover .subnav {
   display: block;
 }
 .topnav .subnav {
