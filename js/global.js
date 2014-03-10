@@ -5,7 +5,7 @@ $(function () {
 
     // HACK to quickly fill in Liesl images
     // --------
-    $('.item .photo').each(function(index, item) {
+    $('.item .photo a').each(function(index, item) {
         $(item).css('background-image', 'url(img/liesl/' + ((index % 11) + 1) + '.jpg)');
     });
 

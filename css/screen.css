@@ -323,8 +323,10 @@ h2 {
   margin-bottom: 1.5em;
 }
 .item .photo {
-  height: 200px;
-  background-color: #eee;
+  border: 1px solid #222;
+  border-radius: 10px;
+}
+.item .photo a {
   background-size: cover;
   background-position: 50% 50%;
   margin-bottom: 1em;

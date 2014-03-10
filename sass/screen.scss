@@ -310,11 +310,14 @@ h2 {
     margin-bottom: 1.5em;
 
     .photo {
-        height: 200px;
-        background-color: #eee;
-        background-size: cover;
-        background-position: 50% 50%;
-        margin-bottom: 1em;
+        border: 1px solid #222;
+        border-radius: 10px;
+
+        a {
+            background-size: cover;
+            background-position: 50% 50%;
+            margin-bottom: 1em;
+        }
     }
 
     .caption {
