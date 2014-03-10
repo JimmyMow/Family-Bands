@@ -12,9 +12,9 @@ $(function () {
     // MAKE LEFT NAV STICKY
     // --------
     var nav = $('.sidenav');
-    var navTop = nav.offset().top;
-    var navLeft = nav.offset().left;
     $(window).scroll(function() {
+        var navTop = nav.offset().top;
+        var navLeft = nav.offset().left;
         var makeItStick = navTop < $(window).scrollTop();
         nav.toggleClass('stuck', makeItStick);
         nav.css('left', makeItStick ? navLeft : 0);
