@@ -12,12 +12,10 @@
 }
 
 %container {
-    margin: 0 auto;
     width: $max_width;
 }
 
 %container-wrap {
-    margin: 0 auto;
     width: $wrap_width;
 }
 
@@ -56,15 +54,11 @@ a {
 
 $nav_border: fade-out(black,.9);
 
-.navwrap {
-    border-bottom: 1px solid $nav_border;
-    margin-bottom: 2em;
-}
-
 .topnav {
     @extend %container-wrap;
     font-size: 0;
-    border-right: $nav_border;
+    border-bottom: 1px solid $nav_border;
+    margin-bottom: 20px;
 
     > ul {
         > li {

@@ -56,12 +56,10 @@ table {
 }
 
 .alerts, .wrap {
-  margin: 0 auto;
   width: 960px;
 }
 
 .topnav, .wrapwrap {
-  margin: 0 auto;
   width: 1000px;
 }
 
@@ -89,14 +87,10 @@ a {
   margin-right: 10px;
 }
 
-.navwrap {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  margin-bottom: 2em;
-}
-
 .topnav {
   font-size: 0;
-  border-right: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 .topnav > ul > li {
   font-size: 16px;
