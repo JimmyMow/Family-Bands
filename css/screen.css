@@ -192,7 +192,6 @@ body.staples li.staples a {
 }
 
 .sidenav {
-  font-size: 0;
   margin-bottom: 20px;
   width: 225px;
   margin-right: 20px;
@@ -209,7 +208,6 @@ body.staples li.staples a {
   display: block;
   background: #111;
   color: #ddd;
-  font-size: 20px;
   text-decoration: none;
   padding: 30px 0;
   border-top: 1px solid rgba(255, 255, 255, 0.3);
@@ -281,7 +279,6 @@ body.staples li.staples a {
   margin-right: 0;
   padding-top: 20px;
   display: inline-block;
-  font-size: 0;
   position: relative;
 }
 
@@ -318,7 +315,6 @@ h2 {
   width: 225px;
   margin-right: 20px;
   display: inline-block;
-  font-size: 15px;
   line-height: 1.4;
   margin-bottom: 1.5em;
 }
@@ -331,7 +327,6 @@ h2 {
 }
 .item .caption h3 {
   font-weight: bold;
-  font-size: 18px;
 }
 .item .caption h3 a {
   text-decoration: none;
